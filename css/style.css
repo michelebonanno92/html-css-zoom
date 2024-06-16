@@ -15,6 +15,10 @@ body{
    color: white;
 }
 
+.color-light-green{
+   color: lightgreen;
+}
+
 /* 
 header
  */
@@ -38,7 +42,7 @@ main
 */
 
 main{
-   height: calc(100vh - (30px + 100px));
+   height: calc(100vh - (30px + 70px));
    background-color:lightskyblue;
    padding: 30px ;
    overflow: auto;
@@ -76,7 +80,7 @@ main .video-container .video img{
   */
 
   footer{
-   height: 100px;
+   height: 70px;
    display: flex;
    justify-content: space-between;
    background-color: #222222 ;
@@ -96,6 +100,12 @@ main .video-container .video img{
 
   footer > * > button > div:first-child {
    margin-bottom: 7px;
+  }
+
+  .end-meeting-btn{
+   color: red;
+   background-color: grey;
+   padding: 5px 10px ;  
   }
 
 
